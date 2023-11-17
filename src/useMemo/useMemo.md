@@ -225,8 +225,7 @@ const Test = () => {
 
 2. 리렌더링
 
-<img width="746" alt="Screenshot 2023-11-18 at 01 02 33" src="https://github.com/hwinkr/react-practice/assets/68489467/
-27b30297-f14c-44dc-8862-adc0ec7f5054">
+<img width="746" alt="Screenshot 2023-11-18 at 01 02 33" src="https://github.com/hwinkr/react-practice/assets/68489467/27b30297-f14c-44dc-8862-adc0ec7f5054">
 
 첫 번째 렌더링은 `useMemo`를 적용하지 않은 `Normal`컴포넌트의 렌더링 속도가 더 빨랐다. 리렌더링은 `level`이 커질수록 `useMemo`를 적용한 `Memo` 컴포넌트의 렌더링 속도가 더 빨랐다.
 
@@ -238,5 +237,5 @@ const Test = () => {
 
 # 참고자료
 
-[리액트에서 useMemo를 정말로 사용해야 하는가? 알아보자](https://medium.com/swlh/should-you-use-usememo-in-react-a-benchmarked-analysis-159faf6609b7)
+[리액트에서 useMemo를 정말로 사용해야 하는가? 알아보자](https://medium.com/swlh/should-you-use-usememo-in-react-a-benchmarked-analysis-159faf6609b7)  
 [리액트 공식문서 useMemo](https://react-ko.dev/reference/react/useMemo)
