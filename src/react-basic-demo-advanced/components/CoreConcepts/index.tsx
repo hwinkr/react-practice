@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { CORE_CONCEPTS } from '../../constants/component-data';
-import Section from '../../Section';
 import Concept from '../Concept';
+import Section from '../Section';
 
 const CoreConcepts = () => {
   return (

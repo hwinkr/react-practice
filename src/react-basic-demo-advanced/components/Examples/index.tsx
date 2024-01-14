@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 import { EXAMPLES } from '../../constants/component-data';
-import Section from '../../Section';
-import Tabs from '../../Tabs';
+import Section from '../Section';
 import TabButton from '../TabButton';
+import Tabs from '../Tabs';
 import Topic from '../Topic';
 
 type SelectedTopic = 'components' | 'jsx' | 'props' | 'state' | null;
